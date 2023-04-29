@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  web:
+    image: chall_web:chall_web
+    container_name: chall_web
+    build:
+      context: .
+      dockerfile: ./container/Dockerfile
+    restart: always
+    ports:
+      - 9001:80
