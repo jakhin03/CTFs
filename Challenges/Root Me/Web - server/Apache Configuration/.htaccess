@@ -1,0 +1,2 @@
+php_flag engine on
+AddType application/x-httpd-php .php88
